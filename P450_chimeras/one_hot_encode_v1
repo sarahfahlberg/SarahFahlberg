@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Feb 25 20:12:19 2020
+
+@author: sarahfahlberg
+"""
+
+import pickle
+
+AA_seqs, thermo_data = pickle.load( open( "save.p", "rb" ) )
+
